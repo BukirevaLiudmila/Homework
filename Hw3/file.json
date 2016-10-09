@@ -1,56 +1,56 @@
 {
 "title": "Movies directed by David Fincher",
 "movies": [
-             {
-	       "name": "The Curious Case of Benjamin Button",
-	       "year": "2008",
-	       "genre": [
-	                  "fantasy",
-		          "drama"
-	                ]
-	       "budget": "150000000"
-             },
+		{
+		"name": "The Curious Case of Benjamin Button",
+		"year": "2008",
+		"genre": [
+			"fantasy",
+			"drama"
+			],
+		"budget": "150000000"
+		},
 
-             {
-               "name": "Gone Girl",
-	       "year": "2014",
-	       "genre": [
-	                  "thriller",
-		          "drama",
-		          "detective"
-	                ]
-	     "budget": "61000000"
-	     },
+		{
+		"name": "Gone Girl",
+		"year": "2014",
+		"genre": [
+			"thriller",
+			"drama",
+			"detective"
+			],
+		"budget": "61000000"
+		},
 
-	     {
-	       "name": "The Girl with the Dragon Tattoo",
-	       "year": "2011",
-	       "genre": [
-	                  "thriller",
-		          "drama",
-			  "detective"
-	                ]
-	       "budget": "90000000"
-	      },
+		{
+		"name": "The Girl with the Dragon Tattoo",
+		"year": "2011",
+		"genre": [
+			"thriller",
+			"drama",
+			"detective"
+			],
+		"budget": "90000000"
+		},
 
-	      {
-	        "name": "Fight Club",
-	        "year": "1999",
-	        "genre": [
-	                   "thriller",
-			   "drama"
-	                 ]
-	        "budget": "63000000"
-	       },
+		{
+		"name": "Fight Club",
+		"year": "1999",
+		"genre": [
+			"thriller",
+			"drama"
+			],
+		"budget": "63000000"
+		},
 
-               {
-	         "name": "The Social Network",
-	         "year": "2010",
-	         "genre": [
-		            "drama",
-		            "biography",
-	                  ]
-	         "budget": "50000000"
-             }
-          ]
+		{
+		"name": "The Social Network",
+		"year": "2010",
+		"genre": [
+			"drama",
+			"biography",
+			],
+		"budget": "50000000"
+		}
+	]
 }
