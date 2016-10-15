@@ -18,7 +18,7 @@ $(document).ready(function() {
 				+ 'Genre: ' + genre + '</li><li>'                                    // добавляем в переменную data заранее подготовленние жанры
 				+ 'Budget: $' + res.movies[i].budget + '</li></ul></div>';
 			}
-			$('#data').append(data);
+			$('#data').html(data);
 		})
 		.fail(function(e) {
 			console.log('error', e);
