@@ -13,7 +13,7 @@ $(document).ready(function() {
 				for (let j = 0; j < res.movies[i].genre.length; ++j) {
 					genre += res.movies[i].genre[j] + (j < res.movies[i].genre.length - 1 ? ', ' : '');
 				}
-				data += '<div> "' + res.movies[i].name + '" <ul><li>'    // добавляем в переменную data название фильма в кавычках
+				data += '<div class="column fill block"><div>"' + res.movies[i].name + '"</div><ul><li>'    // добавляем в переменную data название фильма в кавычках
 				+ 'Year of issue: ' + res.movies[i].year + '</li><li>' 
 				+ 'Genre: ' + genre + '</li><li>'                                    // добавляем в переменную data заранее подготовленние жанры
 				+ 'Budget: $' + res.movies[i].budget + '</li></ul></div>';

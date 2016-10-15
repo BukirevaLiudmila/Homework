@@ -1,0 +1,23 @@
+.fix {
+	flex: auto 0 0;
+}
+.fill {
+	flex: auto 1 1;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.center {
+	align-items: center;
+}
+.btn {
+	width: 60px;
+}
+.block {
+	width: 300px;	
+}
