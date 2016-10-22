@@ -1,8 +1,9 @@
+// Pascal-РєРѕРґ, РєРѕС‚РѕСЂС‹Р№ РЅРµРѕР±С…РѕРґРёРјРѕ РїРµСЂРµРїРёСЃР°С‚СЊ РЅР° JS
 var i, l: integer;
 st, stack,  diagnoz: string;
 c:char;  
 begin
-  diagnoz :=    'Хорошо';
+  diagnoz :=    'Г•Г®Г°Г®ГёГ®';
   st := '{[]()}({}))';
   l := Length(st);
   stack:= '';
@@ -12,15 +13,15 @@ begin
     case c of
        '{', '[', '('  : stack := stack + c;
        '}' : begin  
-                   if Length(stack ) = 0 then  begin diagnoz :=  'Плохо'; break;end; 
+                   if Length(stack ) = 0 then  begin diagnoz :=  'ГЏГ«Г®ГµГ®'; break;end; 
                    if stack[Length(stack)] = '{' then stack := copy(stack, 1, Length(stack)-1);       
        end;       
        ']' : begin  
-                   if Length(stack ) = 0 then  begin diagnoz :=  'Плохо'; break;end; 
+                   if Length(stack ) = 0 then  begin diagnoz :=  'ГЏГ«Г®ГµГ®'; break;end; 
                    if stack[Length(stack)] = '[' then stack := copy(stack, 1, Length(stack)-1);       
        end;                        
        ')' : begin  
-                   if Length(stack ) = 0 then  begin diagnoz :=  'Плохо'; break;end; 
+                   if Length(stack ) = 0 then  begin diagnoz :=  'ГЏГ«Г®ГµГ®'; break;end; 
                    if stack[Length(stack)] = '(' then stack := copy(stack, 1, Length(stack)-1);       
        end;  
     
@@ -28,7 +29,7 @@ begin
     
      
   end; 
-   If (Length(stack) = 0) And (diagnoz='Хорошо') then Writeln ( 'Хорошая строка') else Writeln ( 'Плохая строка');
+   If (Length(stack) = 0) And (diagnoz='Г•Г®Г°Г®ГёГ®') then Writeln ( 'Г•Г®Г°Г®ГёГ Гї Г±ГІГ°Г®ГЄГ ') else Writeln ( 'ГЏГ«Г®ГµГ Гї Г±ГІГ°Г®ГЄГ ');
    
   
 end.
