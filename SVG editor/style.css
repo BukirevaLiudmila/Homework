@@ -1,0 +1,23 @@
+body {
+  align-items: flex-end;
+  display: flex;
+  height: 350px;
+  justify-content: center;
+}
+#container h1 {
+  background-color: DarkSlateBlue;
+  color: white;
+  cursor: move;
+  font-size: 20px;
+  margin: 0px;
+  opacity: 0.9;
+  padding: 10px;
+}
+#editor {
+    background-color: rgba(134, 122, 214, 0.75);
+    color: white;
+    padding: 10px 4px;
+    font-size: 14px;
+    height: 160px;
+    width: 490px;
+}
