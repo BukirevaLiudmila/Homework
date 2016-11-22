@@ -1,12 +1,12 @@
 $(document).ready(function() {
-  SetBg();
+  setBg();
   $("#container").draggable();
   $("#editor").keyup(function() {
-    SetBg();
+    setBg();
   });
 });
 
-function SetBg() {
+function setBg() {
   const entered = $("#editor").val();
   const svgData = escapeHtml(entered);
   const result = "background-image: url(\"data:image/svg+xml," + svgData + "\");";
