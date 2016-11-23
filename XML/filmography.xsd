@@ -1,0 +1,72 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="reviewDate">  
+	<xs:restriction base="xs:integer">
+		<xs:minInclusive value="0"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:element name="filmography">
+	<xs:complexType>
+		<xs:sequence>
+
+			<xs:element name="director" maxOccurs="unbounded" minOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+
+						<xs:element name="category" maxOccurs="unbounded" minOccurs="1">
+							<xs:complexType>
+
+								<xs:sequence>
+
+									<xs:element name="name" type="xs:string"/>
+
+									<xs:choice>
+										<xs:element name="genre" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
+										<xs:element name="singer" type="xs:string"/>
+									</xs:choice>
+
+									<xs:element name="year">
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:pattern value="[1-2][0-9][0-9][0-9]"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+
+									<xs:element name="budget">  
+										<xs:complexType>  
+											<xs:simpleContent>  
+												<xs:extension base="reviewDate">  
+													<xs:attribute name="valuta" type="xs:string" fixed="USD"/>
+												</xs:extension>  
+											</xs:simpleContent>  
+										</xs:complexType>  
+									</xs:element>
+
+								</xs:sequence>
+								<xs:attribute name="name">
+									<xs:simpleType>
+										<xs:restriction base="xs:string">
+											<xs:enumeration value="film"/>
+											<xs:enumeration value="TVserial"/>
+											<xs:enumeration value="clip"/>
+											<xs:enumeration value="cartoon"/>
+											<xs:enumeration value="advertising"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:attribute>	
+
+							</xs:complexType>
+						</xs:element>
+
+					</xs:sequence>
+					<xs:attribute name="name" type="xs:string" use="required"/>	
+				</xs:complexType>
+			</xs:element>
+
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>  
