@@ -1,0 +1,15 @@
+<!ELEMENT filmography (director+)>
+
+<!ELEMENT director (category+)>
+<!ATTLIST director name CDATA #REQUIRED>
+
+<!ELEMENT category (name, (genre+ | singer), year, budget)>
+<!ATTLIST category name (film | TVserial | clip | cartoon | advertising) "film">
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+
+<!ELEMENT budget (#PCDATA)>
+<!ATTLIST budget valuta CDATA #FIXED "USD">
