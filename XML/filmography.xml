@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE filmography SYSTEM "filmography.dtd">
 <filmography>
 	<director name="David Fincher">
 		<category name="film">
