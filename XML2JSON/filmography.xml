@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filmography>
+	<director name="David Fincher">
+		<category name="film">
+			<name>The Curious Case of Benjamin Button</name>
+			<genre>fantasy</genre>
+			<genre>drama</genre>
+			<year>2008</year>
+			<budget valuta="USD">150000000</budget>
+		</category>	
+		<category name="film">
+			<name>Gone Girl</name>
+			<genre>thriller</genre>
+			<genre>drama</genre>
+			<genre>detective</genre>
+			<year>2014</year>
+			<budget valuta="USD">61000000</budget>
+		</category>	
+		<category name="TVserial">
+			<name>House of Cards</name>
+			<genre>drama</genre>
+			<year>2013</year>
+			<budget valuta="USD">60000000</budget>
+		</category>	
+		<category name="clip">
+			<name>Englishman in New York</name>
+			<singer>Sting</singer>
+			<year>1988</year>
+			<budget valuta="USD">2000000</budget>
+		</category>	
+	</director>
+	<director name="Mark Andrews">
+		<category name="cartoon">
+		<name>Brave</name>
+		<genre>fantasy</genre>
+		<genre>comedy</genre>
+		<year>2012</year>
+		<budget valuta="USD">185000000</budget>
+		</category>	
+	</director>
+</filmography>	

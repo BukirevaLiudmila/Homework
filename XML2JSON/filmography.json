@@ -1,0 +1,134 @@
+{
+    "filmography": {
+        "director": [
+            {
+                "$": {
+                    "name": "David Fincher"
+                },
+                "category": [
+                    {
+                        "$": {
+                            "name": "film"
+                        },
+                        "name": [
+                            "The Curious Case of Benjamin Button"
+                        ],
+                        "genre": [
+                            "fantasy",
+                            "drama"
+                        ],
+                        "year": [
+                            "2008"
+                        ],
+                        "budget": [
+                            {
+                                "_": "150000000",
+                                "$": {
+                                    "valuta": "USD"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "film"
+                        },
+                        "name": [
+                            "Gone Girl"
+                        ],
+                        "genre": [
+                            "thriller",
+                            "drama",
+                            "detective"
+                        ],
+                        "year": [
+                            "2014"
+                        ],
+                        "budget": [
+                            {
+                                "_": "61000000",
+                                "$": {
+                                    "valuta": "USD"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "TVserial"
+                        },
+                        "name": [
+                            "House of Cards"
+                        ],
+                        "genre": [
+                            "drama"
+                        ],
+                        "year": [
+                            "2013"
+                        ],
+                        "budget": [
+                            {
+                                "_": "60000000",
+                                "$": {
+                                    "valuta": "USD"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "clip"
+                        },
+                        "name": [
+                            "Englishman in New York"
+                        ],
+                        "singer": [
+                            "Sting"
+                        ],
+                        "year": [
+                            "1988"
+                        ],
+                        "budget": [
+                            {
+                                "_": "2000000",
+                                "$": {
+                                    "valuta": "USD"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Mark Andrews"
+                },
+                "category": [
+                    {
+                        "$": {
+                            "name": "cartoon"
+                        },
+                        "name": [
+                            "Brave"
+                        ],
+                        "genre": [
+                            "fantasy",
+                            "comedy"
+                        ],
+                        "year": [
+                            "2012"
+                        ],
+                        "budget": [
+                            {
+                                "_": "185000000",
+                                "$": {
+                                    "valuta": "USD"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
