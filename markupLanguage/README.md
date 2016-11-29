@@ -15,7 +15,7 @@ To validate XML document against DTD is necessary to specify a reference to a DT
 ```xml
 <!DOCTYPE filmography SYSTEM "filmography.dtd">
 ```
-*To validate **filmography.xml** against **filmography.dtd**, I used text editor TextMate (see **dtdValidation.png**).*
+*To validate __filmography.xml__ against __filmography.dtd__, I used text editor TextMate (see __dtdValidation.png__).*
 
 #### Validation XML against XSD
-*To validate **filmography.xml** against **filmography.xsd**, I used [online validator](http://www.utilities-online.info/xsdvalidation/) (see **xsdValidation.png**).*
+*To validate __filmography.xml__ against __filmography.xsd__, I used [online validator](http://www.utilities-online.info/xsdvalidation/) (see __xsdValidation.png__).*
