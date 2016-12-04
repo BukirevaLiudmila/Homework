@@ -6,7 +6,7 @@ Own markup language (DTD and XML-schema)
 | ------------------|----------------------------------------------|
 | dtdValidation.png | screenshot of the validation XML against DTD |
 | filmography.dtd   | DTD schema                                   |
-| filmography.xml   | created markup language                      |
+| filmography.xml   | created markup language (example)            |
 | filmography.xsd   | XML Schema (XSD)                             |
 | xsdValidation.png | screenshot of the validation XML against XSD |
 
