@@ -1,6 +1,6 @@
 # markupLanguage
 
-Own markup language + DTD and XML-schema
+Own markup language (DTD and XML-schema)
 
 | File name         | Description                                  |
 | ------------------|----------------------------------------------|
