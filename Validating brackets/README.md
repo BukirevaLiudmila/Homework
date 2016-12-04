@@ -6,3 +6,5 @@ Validating the order of brackets
 | -------------|-----------------------------------|
 | code.pas     | Pascal-code to be rewritten on JS |
 | index.js     | rewritten code                    |
+
+Console output
