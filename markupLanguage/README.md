@@ -1,11 +1,11 @@
 # markupLanguage
 
-**markupLanguage** is a homework, in which necessary to create your own markup language using XML, DTD and XML Schema.
+Own markup language + DTD and XML-schema
 
 | File name         | Description                                  |
 | ------------------|----------------------------------------------|
 | dtdValidation.png | screenshot of the validation XML against DTD |
-| filmography.dtd   | DTD schema language                          |
+| filmography.dtd   | DTD schema                                   |
 | filmography.xml   | created markup language                      |
 | filmography.xsd   | XML Schema (XSD)                             |
 | xsdValidation.png | screenshot of the validation XML against XSD |
