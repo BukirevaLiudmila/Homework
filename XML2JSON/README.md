@@ -6,7 +6,7 @@ Converting XML to JSON
 | ------------------|--------------------------------------------------------------------------------------|
 | filmography.json  | JSON file received from XML                                                          |
 | filmography.xml   | XML file to convert to JSON                                                          |
-| index.js          | XML to JSON conversion logic, and testing the results                                |
+| index.js          | logic of the conversion XML to JSON, and testing of the results                      |
 
 ### Install
 
